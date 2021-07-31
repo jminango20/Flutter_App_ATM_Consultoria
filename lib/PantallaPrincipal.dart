@@ -1,4 +1,9 @@
+import 'package:app_atm_consultoria/PantallaContato.dart';
+import 'package:app_atm_consultoria/PantallaEmpresa.dart';
 import 'package:flutter/material.dart';
+
+import 'PantallaCliente.dart';
+import 'PantallaServico.dart';
 
 class PantallaPrincipal extends StatefulWidget {
   @override
@@ -8,7 +13,39 @@ class PantallaPrincipal extends StatefulWidget {
 class _PantallaPrincipalState extends State<PantallaPrincipal> {
 
   void _abrirEmpresa(){
+    Navigator.push(
+        context,
+        MaterialPageRoute(
+            builder: (context)=>PantallaEmpresa()
+        )
+    );
+  }
 
+  void _abrirServico(){
+    Navigator.push(
+      context,
+      MaterialPageRoute(
+          builder: (context)=>PantallaServico()
+      )
+    );
+  }
+
+  void _abrirCliente(){
+    Navigator.push(
+        context,
+        MaterialPageRoute(
+            builder: (context)=>PantallaCliente()
+        )
+    );
+  }
+
+  void _abrirContato(){
+    Navigator.push(
+        context,
+        MaterialPageRoute(
+            builder: (context)=>PantallaContato()
+        )
+    );
   }
 
   @override
@@ -36,7 +73,7 @@ class _PantallaPrincipalState extends State<PantallaPrincipal> {
                       child: Image.asset("imagens/menu_empresa.png"),
                     ),
                     GestureDetector(
-                      onTap: _abrirEmpresa,
+                      onTap: _abrirServico,
                       child: Image.asset("imagens/menu_servico.png"),
                     )
                   ],
@@ -48,11 +85,11 @@ class _PantallaPrincipalState extends State<PantallaPrincipal> {
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
                   GestureDetector(
-                    onTap: _abrirEmpresa,
+                    onTap: _abrirCliente,
                     child: Image.asset("imagens/menu_cliente.png"),
                   ),
                   GestureDetector(
-                    onTap: _abrirEmpresa,
+                    onTap: _abrirContato,
                     child: Image.asset("imagens/menu_contato.png"),
                   )
                 ],
