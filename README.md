@@ -2,15 +2,23 @@
 
 App navegacion de ATM consultoria
 
-## Getting Started
+## Pantalla Principal
 
-This project is a starting point for a Flutter application.
+![image](https://user-images.githubusercontent.com/42250853/127746033-ed299556-2444-46a6-975b-97959ef0dfe8.png)
 
-A few resources to get you started if this is your first Flutter project:
+## Menu sobre la empresa
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+![image](https://user-images.githubusercontent.com/42250853/127746054-4ff9c07b-96fc-4056-9bad-23abbf28f70e.png)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Menu cliente
+
+![image](https://user-images.githubusercontent.com/42250853/127746077-b9a8199d-841b-429d-8e8a-b098d9634509.png)
+
+## Menu servicios
+
+![image](https://user-images.githubusercontent.com/42250853/127746087-d34dcd9b-8a8e-4265-a2a1-a9cebbba1955.png)
+
+## Menu contacto
+
+![image](https://user-images.githubusercontent.com/42250853/127746092-060fda71-f44b-416d-8ce8-cb1ab677bf7f.png)
+
